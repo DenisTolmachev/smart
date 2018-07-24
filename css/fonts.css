@@ -1,0 +1,49 @@
+@font-face {
+	font-family: "OpenSansRegular";
+	src: url("../fonts/Open_Sans/OpenSans-Regular/OpenSans-Regular.eot");
+	src: url("../fonts/Open_Sans/OpenSans-Regular/OpenSans-Regular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/Open_Sans/OpenSans-Regular/OpenSans-Regular.woff") format("woff"),
+	url("../fonts/Open_Sans/OpenSans-Regular/OpenSans-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "OpenSansBold";
+	src: url("../fonts/Open_Sans/OpenSans-Bold/OpenSans-Bold.eot");
+	src: url("../fonts/Open_Sans/OpenSans-Bold/OpenSans-Bold.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/Open_Sans/OpenSans-Bold/OpenSans-Bold.woff") format("woff"),
+	url("../fonts/Open_Sans/OpenSans-Bold/OpenSans-Bold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+/*@font-face {
+	font-family: "MyriadProSemiBold";
+	src: url("../fonts/MyriadProSemiBold/MyriadProSemiBold.eot");
+	src: url("../fonts/MyriadProSemiBold/MyriadProSemiBold.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/MyriadProSemiBold/MyriadProSemiBold.woff") format("woff"),
+	url("../fonts/MyriadProSemiBold/MyriadProSemiBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}*/
+
+@font-face {
+	font-family: "MyriadProRegular";
+	src: url("../fonts/MyriadProRegular/MyriadProRegular.eot");
+	src: url("../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"),
+	url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "FontAwesome";
+	src: url("../fonts/FontAwesome/fa-regular-400.eot");
+	src: url("../fonts/FontAwesome/fa-regular-400.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/FontAwesome/fa-regular-400.woff") format("woff"),
+	url("../fonts/FontAwesome/fa-regular-400.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}

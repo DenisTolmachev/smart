@@ -1,0 +1,841 @@
+@import url(reset.css);
+
+header {
+    /*height: 100%;
+    width: 100%;*/
+    -moz-border-radius: 1px;
+    -webkit-border-radius: 1px;
+    border-radius: 1px; /* border radius */
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box; /* prevents bg color from leaking outside the border */
+    background-color: #f5f5f5; /* layer fill content */
+}
+
+section {
+    background-color: #ffffff;
+}
+
+b {
+    color: #fc6644;
+}
+
+.title {
+    text-align: center;
+    opacity: .94; /* layer alpha */
+    font-family: "OpenSans", sans-serif;
+    font-size: 48px;
+}
+
+.text {
+    opacity: .65; /* layer alpha */
+    color: #000; /* text color */
+    font-family: "Myriad Pro";
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.6px;
+    margin-top: 9px;
+}
+
+.logBorder {
+    cursor: pointer;
+    margin-top: 80px;
+    height: 53px;
+    width: 145px;
+    border: 3px solid;
+    opacity: .6; /* layer alpha */
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px; /* border radius */
+}
+
+.logoText {
+    margin-top: 6px;
+    margin-left: 10px;
+    letter-spacing: 1.4px;
+    opacity: .7; /* layer alpha */
+    font-family: "OpenSans", sans-serif;
+    font-size: 39px;
+    /*font-weight: bold;*/
+}
+
+.sandwich {
+    margin-top: 78px;
+    padding-right: 2px;
+    float: right;
+}
+
+.sandwichImg {
+    cursor: pointer;
+}
+
+.headerTitle {
+    text-align: center;
+    margin-top: 139px;
+    font-weight: 700;
+    opacity: .94; /* layer alpha */
+    font-family: "OpenSans", sans-serif;
+    font-size: 48px;
+}
+
+.headerText {
+    opacity: .65; /* layer alpha */
+    color: #000; /* text color */
+    font-family: "Myriad Pro";
+    font-size: 16px;
+    margin-top: 26px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.6px;
+}
+
+.sendMenu {
+    /*width: 32.7%;*/
+    margin-top: 103px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px; /* border radius */
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box; /* prevents bg color from leaking outside the border */
+    background-color: #fff; /* layer fill content */
+    -moz-box-shadow: 0 0 57px rgba(20,20,21,.2); /* drop shadow */
+    -webkit-box-shadow: 0 0 57px rgba(20,20,21,.2); /* drop shadow */
+    box-shadow: 0 0 57px rgba(20,20,21,.2); /* drop shadow */
+}
+
+.sendMenuTitle {
+    padding-top: 23px;
+    margin-bottom: 37px;
+    text-align: center;
+    opacity: .9; /* layer alpha */
+    font-family: "OpenSans", sans-serif;
+    font-size: 20px;
+}
+
+.inputLi {
+    padding: 5px 32px 20px 32px;
+}
+
+.inputLi input {
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 6px;
+    opacity: .6; /* layer alpha */
+    color: #000; /* text color */
+    font-family: "OpenSans", sans-serif;
+    font-size: 15px;
+    border-bottom: 1px solid #c7c7c7;
+}
+
+.loginLi {
+    margin-top: 58px;
+    padding-bottom: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sendBtn {
+    padding: 18px 52px;
+    color: #fff; /* text color */
+    font-family: "OpenSans", sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid rgba(1,2,2,.07); /* stroke */
+    -moz-border-radius: 28px;
+    -webkit-border-radius: 28px;
+    border-radius: 28px; /* border radius */
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box; /* prevents bg color from leaking outside the border */
+    background-color: #ff5c36; /* layer fill content */
+    -moz-box-shadow: 2px 11px 20px rgba(20,20,21,.08); /* drop shadow */
+    -webkit-box-shadow: 2px 11px 20px rgba(20,20,21,.08); /* drop shadow */
+    box-shadow: 2px 11px 20px rgba(20,20,21,.08); /* drop shadow */
+    outline: none;
+}
+
+.sendBtn:hover {
+    -moz-box-shadow: 1px 6px 14px rgba(20,20,21,.09); /* drop shadow */
+    -webkit-box-shadow: 1px 6px 14px rgba(20,20,21,.09); /* drop shadow */
+    box-shadow: 1px 6px 14px rgba(20,20,21,.09); /* drop shadow */
+}
+
+.sendBtn:active {
+    -moz-box-shadow: 0 0 35px rgba(20,20,21,.21); /* drop shadow */
+    -webkit-box-shadow: 0 0 35px rgba(20,20,21,.21); /* drop shadow */
+    box-shadow: 0 0 35px rgba(20,20,21,.21); /* drop shadow */
+}
+
+.workingProcess {
+    margin-top: 134px;
+}
+
+.processes {
+    width: 100%;
+    color: #fff;
+    display: block;
+    text-align: center;
+    margin-top: 102px;
+}
+
+#kocKoiTomi {
+    background-color: #4eb1f7; /* layer fill content */
+}
+
+#koimonaSet {
+    background-color: #c048f8; /* layer fill content */
+}
+
+#settingKoire {
+    background-color: #817eff; /* layer fill content */
+}
+
+#koImageLara {
+    background-color: #f74670; /* layer fill content */
+}
+
+.processes:hover {
+    -moz-box-shadow: 0 0 35px rgba(20,20,21,.21); /* drop shadow */
+    -webkit-box-shadow: 0 0 35px rgba(20,20,21,.21); /* drop shadow */
+    box-shadow: 0 0 35px rgba(20,20,21,.21); /* drop shadow */
+}
+
+.processes:after {
+    top: 32px;
+    position: relative;
+    content: "+ Know More";
+    height: 55px;
+    width: 228px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+    color: #585858; /* text color */
+    font-family: "OpenSans", sans-serif;
+    font-size: 16px;
+    -moz-border-radius: 27px;
+    -webkit-border-radius: 27px;
+    border-radius: 27px; /* border radius */
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box; /* prevents bg color from leaking outside the border */
+    background-color: #fff; /* layer fill content */
+    -moz-box-shadow: 0 0 14px rgba(20,20,21,.05); /* drop shadow */
+    -webkit-box-shadow: 0 0 14px rgba(20,20,21,.05); /* drop shadow */
+    box-shadow: 0 0 14px rgba(20,20,21,.05); /* drop shadow */
+}
+
+.processes:hover:after {
+    -moz-border-radius: 27px;
+    -webkit-border-radius: 27px;
+    border-radius: 27px; /* border radius */
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box; /* prevents bg color from leaking outside the border */
+    background-color: #fff; /* layer fill content */
+    -moz-box-shadow: 1px 6px 14px rgba(20,20,21,.09); /* drop shadow */
+    -webkit-box-shadow: 1px 6px 14px rgba(20,20,21,.09); /* drop shadow */
+    box-shadow: 1px 6px 14px rgba(20,20,21,.09); /* drop shadow */
+    cursor: pointer;
+}
+
+.processes>i {
+    font-size: 44px;
+    padding-top: 51px;
+    padding-bottom: 20px;
+}
+
+.fa-camera-retro {
+    transform: rotate(-15deg);
+}
+
+#koImageLara:hover > .fa-camera-retro {
+    transform: rotate(0deg);
+}
+
+.processTitle {
+    opacity: .9; /* layer alpha */
+    color: #fff; /* text color */
+    font-family: "OpenSans", sans-serif;
+    font-size: 20px;
+    margin-bottom: 17px;
+}
+
+.processText {
+    opacity: .75; /* layer alpha */
+    color: #fff; /* text color */
+    font-family: "OpenSans", sans-serif;
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+.featuredWork {
+    margin-top: 305px;
+}
+
+.featuredWorkImg {
+    margin-top: 104px;
+}
+
+.workImg {
+    height: 94%;
+    width: 100%;
+    margin-bottom: 18px;
+}
+
+.servicedWeProvide {
+    margin-top: 285px;
+}
+
+.roundedRectangle {
+    height: 90px;
+    width: 100px;
+    overflow: hidden;
+    display: inline-block;
+    margin-bottom: 6px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px; /* border radius */
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box; /* prevents bg color from leaking outside the border */
+    background-color: #fbfbfb; /* layer fill content */
+    -moz-box-shadow: 0 0 0 1px rgba(20,20,21,.07); /* drop shadow */
+    -webkit-box-shadow: 0 0 0 1px rgba(20,20,21,.07); /* drop shadow */
+    box-shadow: 0 0 0 1px rgba(20,20,21,.07); /* drop shadow */
+}
+
+.roundedRectangle:hover {
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px; /* border radius */
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box; /* prevents bg color from leaking outside the border */
+    background-color: #fff; /* layer fill content */
+    -moz-box-shadow: 0 0 36px rgba(20,20,21,.2); /* drop shadow */
+    -webkit-box-shadow: 0 0 36px rgba(20,20,21,.2); /* drop shadow */
+    box-shadow: 0 0 36px rgba(20,20,21,.2); /* drop shadow */
+    cursor: pointer;
+}
+
+.servicedContent {
+    margin-top: 129px;
+}
+
+.servicedImg1 {
+    padding-left: 31%;
+    padding-top: 31%;
+}
+
+.servicedImg2 {
+    padding-left: 23%;
+    padding-top: 22%;
+}
+
+.servicedTitle {
+    margin-top: -2px;
+    padding-left: 34px;
+    letter-spacing: 1px;
+    opacity: .75; /* layer alpha */
+    color: #000; /* text color */
+    font-family: "OpenSans", sans-serif;
+    font-size: 30px;
+}
+
+.servicedTitle:after {
+    position: absolute;
+    display: block;
+    content: "";
+    height: 3px;
+    width: 55px;
+    border-bottom: 3px solid #ff5b35;
+    top: 39px;
+}
+
+.servicedText {
+    line-height: 1.5;
+    margin-top: 25px;
+    padding-left: 37px;
+    opacity: .7; /* layer alpha */
+    color: #000; /* text color */
+    font-family: "OpenSans", sans-serif;
+    font-size: 16px;
+}
+
+.servicedText>p {
+    margin-bottom: 25px;
+}
+
+.servicedBtn {
+    height: 55px;
+    width: 228px;
+    border: 1px solid rgba(1,2,2,.07); /* stroke */
+    -moz-border-radius: 28px;
+    -webkit-border-radius: 28px;
+    border-radius: 28px; /* border radius */
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box; /* prevents bg color from leaking outside the border */
+    background-color: #fff; /* layer fill content */
+    outline: none;
+    opacity: .7; /* layer alpha */
+    color: #000; /* text color */
+    font-family: "OpenSans", sans-serif;
+    font-size: 16px;
+    margin-left: 42px;
+    margin-top: 5px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.servicedBtn:hover {
+    -moz-box-shadow: 1px 6px 14px rgba(20,20,21,.09); /* drop shadow */
+    -webkit-box-shadow: 1px 6px 14px rgba(20,20,21,.09); /* drop shadow */
+    box-shadow: 1px 6px 14px rgba(20,20,21,.09); /* drop shadow */
+}
+
+.servicedBtn:active {
+    -moz-box-shadow: 0 0 35px rgba(20,20,21,.21); /* drop shadow */
+    -webkit-box-shadow: 0 0 35px rgba(20,20,21,.21); /* drop shadow */
+    box-shadow: 0 0 35px rgba(20,20,21,.21); /* drop shadow */
+}
+
+.teamChinenSkills {
+    margin-top: 283px;
+}
+
+.teamChinenContent {
+    margin-top: 117px;
+}
+
+.teamChinenField {
+    display: block;
+    width: 100%;
+    height: 434px;
+    overflow: hidden;
+    -moz-box-shadow: 0 0 2px rgba(20,20,21,.6); /* drop shadow */
+    -webkit-box-shadow: 0 0 2px rgba(20,20,21,.6); /* drop shadow */
+    box-shadow: 0 0 2px rgba(20,20,21,.6); /* drop shadow */
+    cursor: pointer;
+}
+
+.teamPhoto {
+    width: 100%;
+}
+
+.teamData {
+    position: absolute;
+    height: 95px;
+    width: 254px;
+    left: 62px;
+    top: 364px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px; /* border radius */
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box; /* prevents bg color from leaking outside the border */
+    background-color: #fff; /* layer fill content */
+    -moz-box-shadow: 1px 6px 16px rgba(20,20,21,.08); /* drop shadow */
+    -webkit-box-shadow: 1px 6px 16px rgba(20,20,21,.08); /* drop shadow */
+    box-shadow: 1px 6px 16px rgba(20,20,21,.08); /* drop shadow */
+}
+
+.teamDataName {
+    text-align: center;
+    opacity: .7; /* layer alpha */
+    color: #000; /* text color */
+    font-family: "OpenSans", sans-serif;
+    font-size: 30px;
+    margin-top: 19px;
+}
+
+.teamDataPost {
+    text-align: center;
+    opacity: .7; /* layer alpha */
+    color: #000; /* text color */
+    font-family: "OpenSans", sans-serif;
+    font-size: 15px;
+    margin-top: 12px;
+}
+
+.skills {
+    margin: 120px 0 124px 0;
+}
+
+.skillName {
+    opacity: .7;
+    text-align: center;
+    color: #000; /* text color */
+    font-family: "OpenSans", sans-serif;
+    font-size: 15px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.progressBar {
+    background-color: #1a1a1a;
+    height: 4px;
+    /*padding: 5px;*/
+    width: 150px;
+    border-radius: 2px;
+    margin: 0 auto;
+}
+
+.progressBar span {
+    display: block;
+    height: 100%;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px; /* border radius */
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box; /* prevents bg color from leaking outside the border */
+    background-color: #ff6e47; /* layer fill content */
+
+}
+
+.design span {
+    width: 80%;
+}
+
+.english span {
+    width: 50%;
+}
+
+.communication span {
+    width: 70%;
+}
+
+.userSocialIcons {
+    opacity: .3; /* layer alpha */
+    color: #fff2ef;
+    font-family: "FontAwesome";
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+    text-shadow:
+            -0   -1px 0   #000000,
+            0   -1px 0   #000000,
+            -0    1px 0   #000000,
+            0    1px 0   #000000,
+            -1px -0   0   #000000,
+            1px -0   0   #000000,
+            -1px  0   0   #000000,
+            1px  0   0   #000000,
+            -1px -1px 0   #000000,
+            1px -1px 0   #000000,
+            -1px  1px 0   #000000,
+            1px  1px 0   #000000,
+            -1px -1px 0   #000000,
+            1px -1px 0   #000000,
+            -1px  1px 0   #000000,
+            1px  1px 0   #000000;
+
+}
+
+.facebook, .twitter, .google {
+    display: inline-block;
+    padding: 0px 5px 0 5px;
+}
+
+.clientSaid {
+    margin-top: 300px;
+}
+
+.carousel {
+ margin-top: 70px;
+}
+
+.clientsBlock {
+    margin: 4px 4px;
+    cursor: pointer;
+    padding-top: 90px;
+    padding-bottom: 39px;
+    text-align: center;
+    position: relative;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px; /* border radius */
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box; /* prevents bg color from leaking outside the border */
+    background-color: #fff; /* layer fill content */
+    -moz-box-shadow: 0 0 27px rgba(20,20,21,.09); /* drop shadow */
+    -webkit-box-shadow: 0 0 27px rgba(20,20,21,.09); /* drop shadow */
+    box-shadow: 0 0 27px rgba(20,20,21,.09); /* drop shadow */
+}
+
+.owl-stage-outer {
+    padding-top: 50px;
+}
+
+.clientBlockPhoto {
+    margin: 0 auto;
+    top: -141px;
+
+    position: relative;
+    display: block;
+    content: "";
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+    -moz-border-radius: 49px;
+    -webkit-border-radius: 49px;
+    border-radius: 49px; /* border radius */
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box; /* prevents bg color from leaking outside the border */
+    background-color: #fff; /* layer fill content */
+    -moz-box-shadow: 0 0 0 1px rgba(20,20,21,.38); /* drop shadow */
+    -webkit-box-shadow: 0 0 0 1px rgba(20,20,21,.38); /* drop shadow */
+    box-shadow: 0 0 0 1px rgba(20,20,21,.38); /* drop shadow */
+
+}
+
+#orig2 {
+    top: -14px;
+    position: absolute;
+}
+
+#orig3 {
+    position: absolute;
+    left: -27px;
+    width: 142%;
+}
+
+.clientsBlock:hover {
+    -moz-box-shadow: 0 0 0 1px rgba(20,20,21,.38); /* drop shadow */
+    -webkit-box-shadow: 0 0 0 1px rgba(20,20,21,.38); /* drop shadow */
+    box-shadow: 0 0 0 1px rgba(20,20,21,.38); /* drop shadow */
+}
+
+.clientsBlockText {
+    padding: 0 50px 0 50px;
+    opacity: .7; /* layer alpha */
+    color: #000; /* text color */
+    font-family: "SourceSansPro", sans-serif;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.clientsBlockStars {
+    margin-top: 14px;
+    color: #ffee3a; /* text color */
+    font-family: "FontAwesome";
+    font-size: 9px;
+
+}
+
+.clientsBlockUi {
+    margin-top: 21px;
+    opacity: .8; /* layer alpha */
+    color: #000; /* text color */
+    font-family: "SourceSansPro", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.clientsBlockUi em {
+    font-weight: 400;
+    font-style: italic;
+}
+
+.owl-nav {
+    display: inline-block;
+}
+
+.owl-prev, .owl-next {
+    font-size: 0;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 162px;
+    -moz-border-radius: 24px;
+    -webkit-border-radius: 24px;
+    border-radius: 24px; /* border radius */
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box; /* prevents bg color from leaking outside the border */
+    background-color: #fff; /* layer fill content */
+    -moz-box-shadow: 0 3px 14px rgba(20,20,21,.08); /* drop shadow */
+    -webkit-box-shadow: 0 3px 14px rgba(20,20,21,.08); /* drop shadow */
+    box-shadow: 0 3px 14px rgba(20,20,21,.08); /* drop shadow */
+}
+
+.owl-prev {
+    left: -36px;
+    background-image: url("/img/leftArrowDark.gif");
+    background-repeat: no-repeat;
+    background-position: 19px;
+}
+
+.owl-prev:hover {
+    background-image: url("/img/leftArrowWhite.gif");
+    background-color: #ff6e47; /* layer fill content */
+    -moz-box-shadow: 0 3px 14px rgba(20,20,21,.28); /* drop shadow */
+    -webkit-box-shadow: 0 3px 14px rgba(20,20,21,.28); /* drop shadow */
+    box-shadow: 0 3px 14px rgba(20,20,21,.28); /* drop shadow */
+
+}
+
+.owl-next {
+    right: -36px;
+    background-image: url("/img/rightArrowDark.gif");
+    background-repeat: no-repeat;
+    background-position: 19px;
+}
+
+.owl-next:hover {
+    background-image: url("/img/rightArrowWhite.gif");
+    background-color: #ff6e47; /* layer fill content */
+    -moz-box-shadow: 0 3px 14px rgba(20,20,21,.28); /* drop shadow */
+    -webkit-box-shadow: 0 3px 14px rgba(20,20,21,.28); /* drop shadow */
+    box-shadow: 0 3px 14px rgba(20,20,21,.28); /* drop shadow */
+
+}
+
+.owl-dots {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.owl-dot {
+    display: inline-block;
+    width: 18px;
+    height: 6px;
+    margin-right: 5px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px; /* border radius */
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box; /* prevents bg color from leaking outside the border */
+    background-color: #e0e0e0; /* layer fill content */
+
+}
+
+.owl-dot:last-child {
+     margin-right: 0;
+ }
+
+.owl-dot.active {
+    background-color: #ff6e47;
+ }
+
+.logoFooter {
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+
+footer {
+    background-color: #f7f7f7; /* layer fill content */
+    padding-top: 43px;
+    padding-bottom: 20px;
+}
+
+.footerButton {
+    text-align: center;
+}
+
+.footerBtn {
+    height: 55px;
+    width: 228px;
+    border: 1px solid rgba(1,2,2,.07); /* stroke */
+    -moz-border-radius: 28px;
+    -webkit-border-radius: 28px;
+    border-radius: 28px; /* border radius */
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box; /* prevents bg color from leaking outside the border */
+    background-color: #fff; /* layer fill content */
+    outline: none;
+    opacity: .7; /* layer alpha */
+    color: #000; /* text color */
+    font-family: "OpenSans", sans-serif;
+    font-size: 16px;
+    margin-left: 42px;
+    margin-top: 5px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.footerBtn:hover {
+    -moz-box-shadow: 1px 6px 14px rgba(20,20,21,.09); /* drop shadow */
+    -webkit-box-shadow: 1px 6px 14px rgba(20,20,21,.09); /* drop shadow */
+    box-shadow: 1px 6px 14px rgba(20,20,21,.09); /* drop shadow */
+}
+
+.footerBtn:active {
+    -moz-box-shadow: 0 0 35px rgba(20,20,21,.21); /* drop shadow */
+    -webkit-box-shadow: 0 0 35px rgba(20,20,21,.21); /* drop shadow */
+    box-shadow: 0 0 35px rgba(20,20,21,.21); /* drop shadow */
+}
+
+.footerField {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.socialIcons {
+    display: inline-block;
+    float: right;
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+    -moz-border-radius: 26px;
+    -webkit-border-radius: 26px;
+    border-radius: 26px; /* border radius */
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box; /* prevents bg color from leaking outside the border */
+    background-color: #d3d3d3; /* layer fill content */
+    color: #ffffff;
+}
+
+.socialIcons:hover {
+    cursor: pointer;
+    background-color: #ff6e47;
+}
+
+.socialIcons>i {
+    padding-left: 29%;
+    padding-top: 30%;
+}
+
+
+.socialIcons>i.fab.fa-facebook-f {
+    padding-left: 40%;
+}
+
+.copyright {
+    float: left;
+    margin-top: 12px;
+    opacity: .6; /* layer alpha */
+    color: #040404; /* text color */
+    font-family: "OpenSans", sans-serif;
+    font-size: 17px;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+
+
+
